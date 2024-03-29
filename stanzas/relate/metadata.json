@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "relate",
+  "stanza:label": "Relate",
+  "stanza:definition": "Relate stanza",
+  "stanza:type": "Stanza",
+  "stanza:display": "Chart",
+  "stanza:provider": "TogoStanza",
+  "stanza:license": "MIT",
+  "stanza:author": "DBCLS",
+  "stanza:address": "https://github.com/togostanza/metastanza",
+  "stanza:contributor": ["PENQE"],
+  "stanza:created": "2024-3-29",
+  "stanza:updated": "2024-3-29",
+  "stanza:parameter": [
+    {
+      "stanza:key": "say-to",
+      "stanza:type": "string",
+      "stanza:example": "world",
+      "stanza:description": "who to say hello to",
+      "stanza:required": false
+    }
+  ],
+  "stanza:menu-placement": "bottom-right",
+  "stanza:style": [
+    {
+      "stanza:key": "--greeting-color",
+      "stanza:type": "color",
+      "stanza:default": "#eb7900",
+      "stanza:description": "text color of greeting"
+    },
+    {
+      "stanza:key": "--greeting-align",
+      "stanza:type": "single-choice",
+      "stanza:choice": [
+        "left",
+        "center",
+        "right"
+      ],
+      "stanza:default": "center",
+      "stanza:description": "text align of greeting"
+    }
+  ]
+}

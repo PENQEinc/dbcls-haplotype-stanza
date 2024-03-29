@@ -1,0 +1,24 @@
+#input {
+  display: flex;
+  column-gap: 10px;
+
+  > div {
+    flex-grow: 1;
+
+    > textarea {
+      font-size: 10px;
+      font-family: courier;
+      height: 5lh;
+      width: 100%;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 12px;
+  }
+}
+
+.haplotype-label {
+  font-size: 10px;
+}
